@@ -14,7 +14,7 @@ export const Banner = () => {
   const toRotate = [
     "Web Developer",
     "Web Designer",
-    "Data Enty",
+    "Data Entry",
     "WordPress Developer",
   ];
   const period = 2000;
@@ -74,7 +74,7 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "Data Enty" , "WordPress" ]'
+                      data-rotate='[ "Web Developer", "Web Designer", "Data Entry" , "WordPress" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>

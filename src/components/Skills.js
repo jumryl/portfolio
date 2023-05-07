@@ -36,7 +36,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Everyday i practice my coding skills and learn more to to be
+                Everyday i practice my coding skills and learn more to be
                 updated.<br></br> In this month i learn this.
               </p>
               <Carousel
