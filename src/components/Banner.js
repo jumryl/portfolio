@@ -80,7 +80,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I'm a software engineer with a years of experience in Java,
+                    I'm a software engineer with 1 year of experience in Java,
                     WordPress, JavaScript, Laravel, Redux, NodeJS, CSS, HTML,
                     Git, Material UI. My unique experience, ambition, and
                     strengths include a broad perspective on software
