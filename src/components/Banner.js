@@ -74,21 +74,18 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "Data Entry" , "WordPress" ]'
+                      data-rotate='[ "Software Engineer", "Full Stack Developer", "Mobile Developer" , "Applicaton Developer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    I'm a software engineer with 1 year of experience in Java,
-                    WordPress, JavaScript, Laravel, Redux, NodeJS, CSS, HTML,
-                    Git, Material UI. My unique experience, ambition, and
-                    strengths include a broad perspective on software
-                    development, a passion for innovation, strong
-                    problem-solving skills, attention to detail, and an ability
-                    to work well in a team environment. I'm comfortable with
-                    Agile methodologies and eager to take on new challenges and
-                    continue growing.
+                    Highly adaptable Software Engineer with 3+years of
+                    experience in full-stack development,system administration,
+                    customer support, andDevOps. Skilled in building secure,
+                    scalable web,mobile and desktop applications using
+                    modernframeworks. Passionate about automatingworkflows,
+                    solving bugs, and delivering user-centric solutions.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

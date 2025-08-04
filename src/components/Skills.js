@@ -10,7 +10,6 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -36,8 +35,9 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Everyday i practice my coding skills and learn more to be
-                updated.<br></br> In this month i learn this.
+                Every day I enhance my development capabilities through practice
+                and real-world projects.<br></br> Here are the technical skills
+                I actively use and improve on.
               </p>
               <Carousel
                 responsive={responsive}
@@ -46,19 +46,39 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>C# / .NET (MVC, WPF, Windows Services)</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>SQL Server / SSMS / MySQL</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <h5>ASP.NET / Entity Framework</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>JavaScript / jQuery / HTML / CSS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Flutter / Android Development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>API Integration / REST APIs / Postman</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>Git / Visual Studio / IIS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Machine Learning / ML.NET / Tesseract OCR</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Agile / Scrum / JWT Authentication</h5>
                 </div>
               </Carousel>
             </div>

@@ -8,6 +8,9 @@ import projImg5 from "../assets/img/BROWN_03-01.png";
 import projImg6 from "../assets/img/web_3.png";
 import proj2Img1 from "../assets/img/cert_1.png";
 import proj2Img2 from "../assets/img/web_2.png";
+import proj2Img3 from "../assets/img/udemySQL.png";
+import proj2Img4 from "../assets/img/udemySDET.png";
+import proj2Img5 from "../assets/img/udemyImproving.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -49,14 +52,29 @@ export const Projects = () => {
 
   const project2 = [
     {
-      title: "Book Cover",
-      description: "Design & Development",
+      title: "HTML/CSS",
+      description: "HTML5 and CSS3",
       imgUrl: proj2Img1,
     },
     {
-      title: "Book Cover",
-      description: "Design & Development",
+      title: "EVOLUTION",
+      description: "Evolution of Gaming and its Entirety",
       imgUrl: proj2Img2,
+    },
+    {
+      title: "UDEMY",
+      description: "Microsoft SQL",
+      imgUrl: proj2Img3,
+    },
+    {
+      title: "UDEMY",
+      description: "Test Automation",
+      imgUrl: proj2Img4,
+    },
+    {
+      title: "UDEMY",
+      description: "Improving Software Development",
+      imgUrl: proj2Img5,
     },
   ];
 
@@ -103,13 +121,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Web & App</Nav.Link>
+                        <Nav.Link eventKey="first">Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Achievements</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Experience</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -134,9 +152,75 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row>
-                          {/* {project3.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })} */}
+                          <div>
+                            <h3>Mid-Level Software Engineer</h3>
+                            <p>
+                              <strong>RD Pawnshop Inc – Cebu City</strong>
+                              <br />
+                              Jan 08, 2024 – Present
+                            </p>
+                            <ul>
+                              <li>
+                                Developed and maintained system applications
+                                including Accounting, Real-Time Chat, and
+                                Centralized Web/Desktop platforms.
+                              </li>
+                              <li>
+                                Built secure systems using{" "}
+                                <strong>
+                                  .NET MVC, WPF, Entity Framework, SQL Server,
+                                  JWT Tokens
+                                </strong>
+                                .
+                              </li>
+                              <li>
+                                Integrated AI and Machine Learning using{" "}
+                                <strong>ML.NET</strong> and{" "}
+                                <strong>Tesseract OCR</strong> for smart support
+                                features.
+                              </li>
+                              <li>
+                                Automated financial processes, reducing monthly
+                                reconciliation time by 30%.
+                              </li>
+                              <li>
+                                Created a Code Testing dashboard using{" "}
+                                <strong>NUnit, Postman, Jenkins</strong> to
+                                streamline QA and early bug detection.
+                              </li>
+                              <li>
+                                Supported over 3,000 users and assisted a team
+                                of 10+ developers with troubleshooting, reviews,
+                                and production support.
+                              </li>
+                            </ul>
+
+                            <h3 className="mt-4">Software Engineer</h3>
+                            <p>
+                              <strong>TimeRiver Inc – Bacolod City</strong>
+                              <br />
+                              Oct 03, 2022 – May 30, 2023
+                            </p>
+                            <ul>
+                              <li>
+                                Developed a Restaurant Ordering System for a
+                                Japanese client using{" "}
+                                <strong>Laravel, Vue.js, MySQL</strong>.
+                              </li>
+                              <li>
+                                Created a Time Tracking System with real-time
+                                logging and reporting features.
+                              </li>
+                              <li>
+                                Built an Inventory Tracking System for efficient
+                                office supply and asset management.
+                              </li>
+                              <li>
+                                Enhanced UI/UX and delivered bug fixes and
+                                feature upgrades in an Agile/Scrum environment.
+                              </li>
+                            </ul>
+                          </div>
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>
